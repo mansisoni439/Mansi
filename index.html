@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <title>Mansi Soni</title>
+	<style>
+		@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+		body {
+			min-width: 800px;
+			background: #ff00cc;
+			background: linear-gradient(to left, #333399, #ff00cc);
+		}
+		
+		.nav_bar {  }
+		
+		.photo {
+			height: 600px;
+		}
+		
+		a {
+			color: white;
+			text-decoration: none;
+			font-size: 20px;
+			bold: True;
+		}
+		
+		a:hover {
+			color: black;
+			text-decoration: none;
+		}
+		
+		p {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 22px;
+			color: white;
+		}
+		
+		svg {
+			
+			font: 10.5em 'Montserrat';
+			width: 960px;
+			height: 150px;
+		  
+		}
+
+		.text-copy {
+			fill: none;
+			stroke-dasharray: 6% 29%;
+		   stroke-width: 5px;
+			animation: stroke-offset 5.5s infinite linear;
+		}
+
+		.text-copy:nth-child(1){
+			stroke: white;
+			animation-delay: -1;
+		}
+
+		.text-copy:nth-child(2){
+			stroke: black;
+			animation-delay: -2s;
+		}
+
+		.text-copy:nth-child(3){
+			stroke: white;
+			animation-delay: -3s;
+		}
+
+		.text-copy:nth-child(4){
+			stroke: black;
+			animation-delay: -4s;
+		}
+
+		.text-copy:nth-child(5){
+			stroke: white;
+			animation-delay: -5s;
+		}
+
+		@keyframes stroke-offset{
+			100% {stroke-dashoffset: -35%;}
+		}
+		
+		.about {
+			margin-left: 200px;
+			margin-right: 200px;
+			margin-top: 50px;
+		}
+		
+		h1 {
+			font-size: 60px;
+			color: white;
+		
+		}
+		
+		.skill {
+			margin-top: 100px;
+		}
+		
+		.skill-content {
+			margin-top: 50px;
+			margin-left: 100px;
+			margin-right: 100px;
+			background-color: white;
+		}
+		
+		.social-media {
+			margin-top: 100px;
+			margin-left:200px;
+			margin-right:200px;
+		}
+		
+		li {
+			list-style-type: none;
+		}
+		
+		h2 {
+			font-size: 40px;
+			color: white;
+		}
+		
+		
+		h3 {
+			font-size: 30px;
+			color: white;
+		}
+		
+		footer {
+			margin-top: 60px;
+			background-color:black;
+			opacity:0.4;
+			color: white;
+		}
+		.section-border {
+			border: 2px solid black;
+		}
+	</style>
+  </head>
+  <body>
+	<center>
+	<br><b>
+	<nav class="nav-bar">
+		<ul class="nav justify-content-center">
+		  <li class="nav-item">
+			<a class="nav-link" href="#home1">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#about">About Me</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#skill">Skills</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#contact">Contact Me </a>
+		  </li>
+		</ul>
+	</nav>
+	</b>
+	
+	<div class=" container image-cropper">
+		<div class="photo">
+			<img id="home1" src="image.jpg" height="200px" width="200px" style="border-radius: 800px; margin-top: 60px;">
+		</div>
+	</div>
+	
+	<div style="margin-top: -150px;">
+		<svg viewBox="0 0 960 300">
+			<symbol id="s-text">
+				<text text-anchor="middle" x="50%" y="50%">Mansi soni</text>
+			</symbol>
+
+			<g class = "g-ants">
+
+				<use xlink:href="#s-text" class="text-copy"></use>
+				<use xlink:href="#s-text" class="text-copy"></use>
+				<use xlink:href="#s-text" class="text-copy"></use>
+				<use xlink:href="#s-text" class="text-copy"></use>
+				<use xlink:href="#s-text" class="text-copy"></use>
+			</g>
+		</svg>
+	</div>
+	
+	<div  class=" container">
+		<div id="about" class="about">
+			<hr class="section-border">
+			<h1  class="about-title">About</h1>
+			<br>
+			<p>
+				Hello...I'm Mansi Soni, pursuing my Bachelor’s Degree in Computer Science and Engineering 
+				from Shri Vaishnav Vidyapeeth Vishwavidyalaya, Indore. establishing myself by adapting and 
+				learning new technologies. Dedicated to become  a software developer in IT industry with my 
+				technical skills and management skills for learning and getting  knowledge and determination
+				for the proliferation of the organization’s growth
+			</p>
+			<hr class="section-border">
+		</div>
+		
+		
+		
+		<div id="skill" class="skill">
+			<hr class="section-border">
+			<h1>SKILLS</h1>
+			<div class="skill-content">
+				<img src="c1.jpg" height="100px" width="100px">
+				<img src="css1.jfif" style="padding-left: 70px" height="100px" width="200px">
+				<img src="java1.png" style="padding-left: 70px" height="100px" width="200px">
+			</div>
+			<hr class="section-border">
+		</div>
+		
+		
+		
+		<div id="contact" class="social-media">
+			<hr class="section-border">
+			<h2> Contact Me </h2>
+			<h3> On Social media </h3><br><b>
+				<a href = "#" class="fa fa-envelope">&nbsp;&nbsp; mansisoni439@gmail.com</a><br>
+				<a href="#" class="fa fa-instagram">&nbsp;&nbsp; mansisoni31</a><br>
+				<a href = "#" class="fa fa-linkedin">&nbsp;&nbsp; Mansi Soni</a><br>
+				<a href="#" class="fa fa-github">&nbsp;&nbsp; Mansi-soni</a></b><br>
+			<hr class="section-border">
+		</div>
+	</div>
+	
+	
+	<footer>
+		<small>&copy; Copyright 2020, Mansi Soni</small>
+	</footer>
+	</center>
+
+	
+	
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </body>
+</html>
